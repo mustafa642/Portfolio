@@ -1,0 +1,239 @@
+body {
+    overflow-x: hidden;
+}
+.about {
+    min-height: 80vh;
+    margin-top: 20vh;
+}
+.whole-hero-section {
+    min-height: 100vh;
+    background-image: url(Untitled-1-01.jpg);
+    background-size: cover;
+}
+.about .row {
+    margin-top: 10vh;
+}
+.navbar {
+    transition: 300ms;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.nav-item {
+    padding: 18px;
+}
+.skills {
+    height: 10px;
+    width: 100%;
+    border: 3px solid #cc0e74;
+}
+.nav-link {
+    font-size: 16px;
+    font-family: Poppins;
+    color: white;
+    font-weight: 700;
+    transition: 600ms;
+}
+.nav-link:hover {
+    color: #cc0e74;
+}
+.scroll .nav-link:hover {
+    color: #cc0e74;
+    background-color: white;
+}
+.scroll .nav-item {
+    padding: 10px;
+}
+.c1 {
+    color: white;
+}
+.col-sm-6 {
+    text-align: center;
+}
+.col-sm-6 h1 {
+    color: white;
+    font-family: poppins;
+    font-weight: 900;
+    font-size: 4rem;
+}
+.scroll {
+    background-color: #cc0e74;
+}
+.element, .hello {
+    color: #cc0e74;
+}
+.col-sm-6 h2 {
+    font-family: poppins;
+    color: white;
+    font-weight: 700;
+}
+.margin {
+    margin-top: 40vh;
+}
+.about h1 {
+    text-align: center;
+    font-family: poppins;
+    font-weight: 800;
+    font-size: 3rem;
+    color: #cc0e74;
+}
+.nichy {
+    width: 10%;
+    border: 5px solid #cc0e74;
+    margin: auto;
+    opacity: 1;
+    color: #cc0e74;
+}
+.s1 {
+    height: 70%;
+    margin-top: 15%;
+    background-color: rgb(34, 33, 33);
+}
+h3 {
+    text-align: right;
+}
+p {
+    margin: 0% 15% 0% 15%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.about h2 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-family: poppins;
+}
+.services .row {
+    margin-top: 6vh;
+}
+.services h1 {
+    text-align: center;
+    font-family: poppins;
+    font-weight: 800;
+    font-size: 3rem;
+    color: #cc0e74;
+}
+.s1 {
+    text-align: center;
+    padding: 10%;
+    transition: 600ms;
+    cursor: pointer;
+}
+.s1:hover {
+    background-color: #cc0e74;
+}
+.s1 h2 {
+    color: white;
+    text-align: center;
+    font-family: poppins;
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.sections h2 {
+    text-align: center;
+    font-family: poppins;
+    font-size: 35px;
+    margin-top: 5vh;
+}
+.sections h3 {
+    font-family: poppins;
+    font-size: 20px;
+}
+.sections h1 {
+    text-align: center;
+    font-family: poppins;
+    font-weight: 800;
+    font-size: 3rem;
+    color: #cc0e74;
+}
+.inner {
+    width: 90%;
+    background-color: #cc0e74;
+    height: 100%;
+}
+.inner2{
+    width: 80%;
+    background-color: #cc0e74;
+    height: 100%;
+}
+.inner3 {
+    width: 70%;
+    background-color: #cc0e74;
+    height: 100%;
+}
+.inner4 {
+    width: 90%;
+    background-color: #cc0e74;
+    height: 100%;
+}
+.inner5 {
+    width: 80%;
+    background-color: #cc0e74;
+    height: 100%;
+}
+.portfolio h1 {
+    text-align: center;
+    font-family: poppins;
+    font-weight: 800;
+    font-size: 3rem;
+    color: #cc0e74;
+    margin-top: 4vh;
+}
+.portfolio ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    background-color: #cc0e74;
+    color: white;
+}
+.ht {
+    background-color: rgb(34, 33, 33);
+    color: white;
+    border-radius: 10%;
+    font-family: poppins;
+    font-weight: 700;
+}
+.ht:hover {
+    background-color: #cc0e74;
+    color: white;
+}
+#portfolio {
+    min-height: 100vh;
+    margin-top: 5vh;
+}
+.portfolio {
+    text-align: center;
+}
+.tile {
+    height: 30vh;
+    width: 25%;
+    display: inline-block;
+}
+.web { background:#00C5CD;}
+.flyers { background: #CC3232;}
+.bcards { background: #ddd; }
+@media (max-width: 991px) {
+    .navbar {
+        background-color: #cc0e74;
+    }
+    .col-sm-6 h1 {
+        font-size: 2rem;
+    }
+    .col-sm-6 h2 {
+        font-size: 1rem;
+    }
+    .about h2 {
+        margin-top: 10vh;
+    }
+    .services h1 {
+        margin-top: 10vh;
+    }
+    p {
+        font-size: 12px;
+    }
+    .ht {
+        margin-top: 2vh;
+    }
+}
